@@ -25,6 +25,16 @@ body {
 	height: 32px;
 	border-radius: 4px;
 }
+
+.button-hidden {
+	display: none;
+}
+
+.char-count-hidden {
+	display:none;
+}
+
+
 .button {
 	color: #fff;
 	text-shadow: 0 -1px 1px rgba(0,0,0,.25);
@@ -128,12 +138,13 @@ body {
 		box-sizing: border-box;
 	}
 		#tweet-controls {
+
 			text-align: right;
 		}
-			#tweet-controls div {
+			count {
 				display: inline-block;
 			}
-			#char-count {
+			.char-count {
 				font-size: 14px;
 				color: #999;
 				text-shadow: 0 1px 1px rgba(255,255,255,.75);
